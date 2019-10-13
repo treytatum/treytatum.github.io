@@ -1,0 +1,52 @@
+body {
+	font-family: Roboto, sans-serif;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+	background-color: rgb(34, 139, 230);
+}
+
+.branding {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	height: 100%;
+}
+
+.branding h1 {
+	font-family: Bangers, sans-serif;
+	font-size: 50px;
+	letter-spacing: 4px;
+	margin: 10px 20px;
+}
+
+.fa-campground {
+
+}
+
+main {
+	width:900px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+footer {
+	display: flex;
+  	justify-content: space-between;
+  	align-items: flex-end;
+ 	height: 100%;
+ 	padding: 20px 20px;
+}
+
+.footer-nav {
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+}
+
+
